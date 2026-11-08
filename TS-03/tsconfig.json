@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": "TS-03/src",
+    "outDir": "TS-03/dist",
 
     "module": "esnext",
     "target": "esnext",
@@ -18,5 +18,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["src/**/*"]
+  "include": ["TS-03/src/**/*"]
 }

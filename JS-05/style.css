@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: #2d6cdf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.book.read .book-title {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-author {
+    font-size: 13px;
+    color: gray;
+}
+
+.book .remove {
+    background: #c0392b;
+}

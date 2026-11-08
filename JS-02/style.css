@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+form {
+    margin-bottom: 12px;
+}
+
+input,
+button,
+select {
+    font-size: 14px;
+    padding: 6px;
+    margin: 4px 0;
+}
+
+#task-count {
+    font-size: 14px;
+    color: #666;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.task__title {
+    flex: 1;
+}
+
+.task--completed .task__title {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.empty-message {
+    color: #999;
+}
